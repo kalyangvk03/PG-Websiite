@@ -1,0 +1,157 @@
+/* Import Modern Font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Form Container */
+.register-container {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+  border-radius: 15px;
+  padding: 30px;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+  text-align: left;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Labels */
+label {
+  font-size: 16px;
+  font-weight: 400;
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Input Fields */
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 12px;
+  margin-top: 3px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+  transition: 0.3s;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+/* Placeholder Styling */
+input::placeholder,
+textarea::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Focus Effects */
+input:focus,
+textarea:focus,
+select:focus {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* Select Dropdown */
+select {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+select option {
+  color: black;
+}
+
+/* File Upload Styling */
+input[type="file"] {
+  border: 1px dashed rgba(255, 255, 255, 0.5);
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* Flexbox for Occupation Fields */
+.occupation-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Grid Layout for College/Office Fields */
+.college-office-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+}
+
+/* Larger Screens */
+@media (min-width: 768px) {
+  .college-office-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Checkbox Styling */
+.declaration {
+  display: flex;
+  align-items: left;
+  gap: 10px;
+  font-size: 14px;
+}
+
+.declaration input {
+  width: auto;
+}
+
+/* Submit Button */
+button {
+  background: blue;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #1d05f5, #c60656);
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .register-container {
+    width: 100%;
+    padding: 20px;
+  }
+}

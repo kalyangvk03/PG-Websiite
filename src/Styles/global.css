@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=K2D:wght@400;600;700&display=swap');
+
+
+* {
+  font-family: 'K2D', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  background-color: #101337;
+  color: #ffffff;
+  margin: 0;
+  padding: 50px 20px 20px;
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+.main-content {
+  padding-top: 90px; /* Adjust based on navbar height */
+}

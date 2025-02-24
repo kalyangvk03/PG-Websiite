@@ -1,0 +1,161 @@
+/* Food.css */
+
+/* General Styles */
+.food-menu-container {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  padding: 2rem;
+  text-align: center;
+}
+
+.food-menu-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #1976d2;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.food-menu-description {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 2rem;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+/* Table Wrapper */
+.table-wrapper {
+  overflow-x: auto;
+  margin-bottom: 2rem;
+  animation: slideInUp 1s ease-in-out;
+}
+
+/* Food Menu Table */
+.food-menu-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color:#8EC5FC;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.food-menu-table th,
+.food-menu-table td {
+  padding: 1rem;
+  text-align: left;
+}
+
+.food-menu-table th {
+  background-color: #1976d2;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.food-menu-table tr {
+  transition: background-color 0.3s ease;
+}
+
+.food-menu-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.food-menu-table .even-row {
+  background-color: #f9f9f9;
+}
+
+.food-menu-table .odd-row {
+  background-color: #fff;
+}
+
+.food-menu-table .day-cell {
+  font-weight: 600;
+  color: #1976d2;
+}
+
+.food-menu-table .evening-tea-row {
+  background-color: #1976d2;
+  color: #fff;
+  font-weight: 600;
+}
+
+.food-menu-table .evening-tea {
+  text-align: center;
+  padding: 1rem;
+}
+
+/* Special Occasions Section */
+.special-occasions {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 2s ease-in-out;
+}
+
+.special-occasions h3 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.special-occasions ul {
+  list-style: none;
+  padding: 0;
+}
+
+.special-occasions li {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideInUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .food-menu-title {
+    font-size: 2rem;
+  }
+
+  .food-menu-description {
+    font-size: 1rem;
+  }
+
+  .food-menu-table th,
+  .food-menu-table td {
+    padding: 0.75rem;
+  }
+
+  .special-occasions h3 {
+    font-size: 1.5rem;
+  }
+
+  .special-occasions li {
+    font-size: 1rem;
+  }
+}

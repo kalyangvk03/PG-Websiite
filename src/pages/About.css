@@ -1,0 +1,174 @@
+/* Global Styles */
+html, body {
+  font-family: 'K2D', sans-serif;
+  background-color: #0d0f21; /* Deep dark background */
+  color: #e0e0e0; /* Soft white text for contrast */
+  margin: 0;
+  padding: 0;
+}
+
+.about-container {
+  margin: 0 auto;
+  background-color: #0d0f21;
+  min-height: 50vh;
+}
+
+/* Hero Section */
+.jhero-section {
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: #ffffff;
+  padding: 20px 30px;
+  text-align: center;
+  border-radius: 12px;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.jhero-content h1 {
+  font-size: 3.2rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.hero-content p {
+  font-size: 1.3rem;
+  opacity: 0.8;
+}
+
+/* About Section */
+.about-section {
+  background: rgba(255, 255, 255, 0.07);
+  padding: 50px;
+  border-radius: 12px;
+  backdrop-filter: blur(12px);
+  margin-bottom: 40px;
+}
+
+.about-content h2 {
+  font-size: 2.2rem;
+  color: #ff8c00;
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+}
+
+/* Why Choose Section */
+.why-choose-section {
+  background: rgba(255, 255, 255, 0.07);
+  padding: 50px;
+  border-radius: 12px;
+  backdrop-filter: blur(12px);
+  margin-bottom: 40px;
+}
+
+.why-choose-section h2 {
+  font-size: 2.2rem;
+  color: #ff8c00;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.kfeatures-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+.kfeature-card {
+  background: rgba(255, 255, 255, 0.07);
+  padding: 25px;
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.kfeature-card:hover {
+  transform: scale(1.05);
+}
+
+.kfeature-card h3 {
+  font-size: 1.6rem;
+  color: #ff8c00;
+  margin-bottom: 12px;
+}
+
+/* Popular Places Section */
+.popular-places-section {
+  background: rgba(255, 255, 255, 0.07);
+  padding: 50px;
+  border-radius: 12px;
+  backdrop-filter: blur(12px);
+  margin-bottom: 40px;
+}
+
+.popular-places-section h2 {
+  font-size: 2.2rem;
+  color: #ff8c00;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.places-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+.place-card {
+  background: rgba(255, 255, 255, 0.07);
+  padding: 25px;
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.place-card:hover {
+  transform: scale(1.05);
+}
+
+.place-card h3 {
+  font-size: 1.6rem;
+  color: #ff8c00;
+  margin-bottom: 12px;
+}
+
+/* Call to Action Section */
+.cta-section {
+  background: linear-gradient(135deg, #ff522f90, #dd24778c);
+  color: white;
+  padding: 50px 30px;
+  text-align: center;
+  border-radius: 12px;
+}
+
+.cta-section h2 {
+  font-size: 2.2rem;
+  margin-bottom: 18px;
+}
+
+.cta-section p {
+  font-size: 1.3rem;
+  margin-bottom: 25px;
+  opacity: 0.9;
+}
+
+.cta-button {
+  background: white;
+  color: #270def;
+  padding: 10px 22px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+  background: #f8e9f2;
+}

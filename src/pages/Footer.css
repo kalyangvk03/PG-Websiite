@@ -1,0 +1,77 @@
+.footer-container {
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Footer Content Layout */
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Footer Sections */
+.footer-section {
+    flex: 1;
+    min-width: 250px;
+    margin: 10px;
+}
+
+/* Titles */
+.footer-section h3,
+.footer-section h4 {
+    color: #B0E0E6; /* Powder Blue */
+    margin-bottom: 12px;
+    font-size: 18px;
+}
+
+/* Footer Links */
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 8px 0;
+}
+
+.footer-section ul li a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+
+.footer-section ul li a:hover {
+    color: #B0E0E6; /* Hover effect with Powder Blue */
+    text-decoration: underline;
+}
+
+/* Contact Info */
+.footer-section p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.8);
+}
+.social-icons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .social-icons a {
+    font-size: 1.8rem;
+    color: #ffffffb6;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #2a1ce9; /* Change color on hover */
+    transform: scale(1.2);
+  }
+  
