@@ -6,7 +6,10 @@ const path = require("path");
 
 const app = express();
 app.use(express.json());
-app.use(cors());
+app.use(cors({
+  origin: '*',  // Allow all domains (you can replace '*' with a specific domain if needed)
+  credentials: true  // Allow credentials (cookies, etc.) if needed
+}));
 
 app.use("/uploads", express.static("uploads")); // Serve uploaded images
 
@@ -156,5 +159,4 @@ app.get("/api/Customer", async (req, res) => {
 });
 
 // ===================== 🚀 Start Server ===================== //
-app.listen(5000, () => console.log("Server running on port 5000"));
-
+app.listen(5000, '0.0.0.0', () => console.log("Server is running"));
