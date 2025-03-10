@@ -21,7 +21,7 @@ Crystal Rocks Suites & PG is a modern, premium accommodation platform designed t
 - **Frontend:** React.js (for dynamic and seamless UI/UX)
 - **Backend:** Node.js(for efficient data handling)
 - **Database:** MongoDB (for secure and scalable data storage)
-- **UI Frameworks:** MUI (Material UI) & Tailwind CSS (for a sleek design)
+- **UI Frameworks:** MUI (Material UI) 
 - **Hosting:** Render
 ## 🛠️ Installation & Setup
 
